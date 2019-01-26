@@ -1,0 +1,122 @@
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[         0,          0]
+NotebookDataLength[      4933,        121]
+NotebookOptionsPosition[      3924,         90]
+NotebookOutlinePosition[      4258,        105]
+CellTagsIndexPosition[      4215,        102]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"data", " ", ":=", " ", 
+  RowBox[{
+  "Import", "[", 
+   "\"\</home/joshua/Documents/PersonalWebsite/personal-website/pixels.csv\>\"\
+", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"plot", " ", ":=", " ", 
+  RowBox[{"ListDensityPlot", "[", "data", "]"}]}]}], "Input",
+ CellChangeTimes->{{3.7572071027079887`*^9, 3.757207104748356*^9}, {
+   3.7572072393092213`*^9, 3.757207274800605*^9}, 3.757207376715583*^9, {
+   3.7572074125074787`*^9, 3.757207426595728*^9}, {3.7572076371598673`*^9, 
+   3.757207647887389*^9}, {3.75720787738024*^9, 3.7572078892048283`*^9}, {
+   3.75720792548512*^9, 3.7572079662465363`*^9}, {3.757208119569208*^9, 
+   3.757208333341893*^9}, {3.7572083981421623`*^9, 3.7572084180294447`*^9}, {
+   3.7572084485210133`*^9, 3.757208476384007*^9}, {3.757209011511105*^9, 
+   3.7572090314768963`*^9}, {3.75720947952884*^9, 3.757209553065226*^9}, {
+   3.757209671398316*^9, 3.757209674907786*^9}, {3.7572097569414454`*^9, 
+   3.7572098553757763`*^9}, {3.757212609160266*^9, 3.7572126654414463`*^9}, 
+   3.7572127255917997`*^9},ExpressionUUID->"17a70438-9ae3-40d1-9238-\
+afadccdce7fc"],
+
+Cell[BoxData["\<\"plot.png\"\>"], "Output",
+ CellChangeTimes->{3.757212684557612*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"6e84f55c-ad92-48e2-99c1-697467b30050"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\</home/joshua/Documents/PersonalWebsite/personal-website/plot.png\>\"", 
+   ",", 
+   RowBox[{"ImageReflect", "[", 
+    RowBox[{"plot", ",", 
+     RowBox[{"Right", "\[Rule]", "Top"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7572127398898153`*^9, 3.75721276140261*^9}, {
+  3.757212836159317*^9, 3.757212891653097*^9}, {3.7572129872081003`*^9, 
+  3.757213001726631*^9}},ExpressionUUID->"fa4ebf28-6b71-4ad8-9f57-\
+4a1cebe2ad48"],
+
+Cell[BoxData["\<\"/home/joshua/Documents/PersonalWebsite/personal-website/\
+plot.png\"\>"], "Output",
+ CellChangeTimes->{{3.757212771092698*^9, 3.757212788006332*^9}, 
+   3.75721290884896*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"d6525aa8-3844-46c0-abb7-c4100ec81365"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.757208526736384*^9, 3.757208527680335*^9}, {
+   3.757208659809044*^9, 3.757208660958778*^9}, {3.757208713065481*^9, 
+   3.757208714104353*^9}, {3.757208744351788*^9, 3.7572087485676813`*^9}, {
+   3.7572088740067244`*^9, 3.757208876114294*^9}, {3.75720905492548*^9, 
+   3.757209062229446*^9}, {3.757209097183589*^9, 3.7572091950165567`*^9}, {
+   3.757209247237314*^9, 3.7572092765395*^9}, {3.757209313555275*^9, 
+   3.7572093345235357`*^9}, {3.757209511375655*^9, 3.757209514888221*^9}, {
+   3.757209864532563*^9, 3.757209865022684*^9}, 3.757209930931485*^9, 
+   3.75721260704817*^9},ExpressionUUID->"96b4fb2e-70d7-4c7d-8851-\
+824dd261c1d4"],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{
+  3.75720852935537*^9, 3.757208663682263*^9, 3.757208714666175*^9, 
+   3.75720874917447*^9, 3.7572088805275183`*^9, 3.757209056451846*^9, 
+   3.757209086575286*^9, {3.757209140718527*^9, 3.7572092016998568`*^9}, {
+   3.7572092619109097`*^9, 3.757209270454768*^9}, {3.757209329171299*^9, 
+   3.7572093359424973`*^9}, {3.757209516326392*^9, 3.757209557244481*^9}, 
+   3.757209682928054*^9, {3.757209768527945*^9, 3.7572097838345222`*^9}, {
+   3.7572098525292387`*^9, 3.757209858453261*^9}, 3.7572098892637367`*^9, 
+   3.75721031367059*^9},
+ CellLabel->"Out[76]=",ExpressionUUID->"463587e6-5363-4e35-b4ad-f6bddc4007b4"]
+}, Open  ]]
+},
+WindowSize->{1918, 1051},
+WindowMargins->{{1, Automatic}, {1, Automatic}},
+FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[422, 15, 1119, 19, 55, "Input",ExpressionUUID->"17a70438-9ae3-40d1-9238-afadccdce7fc"],
+Cell[1544, 36, 163, 2, 35, "Output",ExpressionUUID->"6e84f55c-ad92-48e2-99c1-697467b30050"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1744, 43, 490, 11, 31, "Input",ExpressionUUID->"fa4ebf28-6b71-4ad8-9f57-4a1cebe2ad48"],
+Cell[2237, 56, 270, 4, 35, "Output",ExpressionUUID->"d6525aa8-3844-46c0-abb7-c4100ec81365"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2544, 65, 689, 10, 31, "Input",ExpressionUUID->"96b4fb2e-70d7-4c7d-8851-824dd261c1d4"],
+Cell[3236, 77, 672, 10, 35, "Output",ExpressionUUID->"463587e6-5363-4e35-b4ad-f6bddc4007b4"]
+}, Open  ]]
+}
+]
+*)
+
