@@ -60,7 +60,11 @@ disableKinds = ["RSS"]
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/ysnp113"
+    url = "https://github.com/joshuatowner"
+
+  [[params.social]]
+    name = "Resume"
+    url = "https://github.com/joshuatowner/resume/blob/master/resume-2019.pdf"
 
 [menu]
 
