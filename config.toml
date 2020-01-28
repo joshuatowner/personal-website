@@ -35,7 +35,7 @@ disableKinds = ["RSS"]
   # images = [""]
   themeColor = "#494f5d"
 
-  homeSubtitle = "Second Year CS/Physics/Math student at Northeastern University"
+  homeSubtitle = "CS/Physics/Math student at Northeastern University"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -64,7 +64,7 @@ disableKinds = ["RSS"]
 
   [[params.social]]
     name = "Resume"
-    url = "https://github.com/joshuatowner/resume/blob/master/resume-2019.pdf"
+    url = "https://github.com/joshuatowner/resume/blob/master/resume.pdf"
 
 [menu]
 
